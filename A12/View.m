@@ -23,6 +23,7 @@
 {
     // Drawing code
     NSString *str = @"Hello World";
+    NSString *str =@"My name is Anyssa";
     [str drawInRect:<#(CGRect)#> withAttributes:<#(NSDictionary *)#>]
 }
 
