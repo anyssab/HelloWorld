@@ -22,6 +22,7 @@
 		77F7D1F2189ABC21008303F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F7D1D1189ABC21008303F5 /* UIKit.framework */; };
 		77F7D1FA189ABC21008303F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77F7D1F8189ABC21008303F5 /* InfoPlist.strings */; };
 		77F7D1FC189ABC21008303F5 /* A12Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F7D1FB189ABC21008303F5 /* A12Tests.m */; };
+		77F7D207189ABD56008303F5 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F7D206189ABD56008303F5 /* View.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		77F7D1F7189ABC21008303F5 /* A12Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "A12Tests-Info.plist"; sourceTree = "<group>"; };
 		77F7D1F9189ABC21008303F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		77F7D1FB189ABC21008303F5 /* A12Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = A12Tests.m; sourceTree = "<group>"; };
+		77F7D205189ABD56008303F5 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		77F7D206189ABD56008303F5 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				77F7D1E2189ABC21008303F5 /* Main_iPad.storyboard */,
 				77F7D1E5189ABC21008303F5 /* ViewController.h */,
 				77F7D1E6189ABC21008303F5 /* ViewController.m */,
+				77F7D205189ABD56008303F5 /* View.h */,
+				77F7D206189ABD56008303F5 /* View.m */,
 				77F7D1E8189ABC21008303F5 /* Images.xcassets */,
 				77F7D1D4189ABC21008303F5 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77F7D207189ABD56008303F5 /* View.m in Sources */,
 				77F7D1E7189ABC21008303F5 /* ViewController.m in Sources */,
 				77F7D1DE189ABC21008303F5 /* AppDelegate.m in Sources */,
 				77F7D1DA189ABC21008303F5 /* main.m in Sources */,

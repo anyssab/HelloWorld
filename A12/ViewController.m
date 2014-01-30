@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "View.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    View *v = [[View alloc] init];
+    [self.view addSubview:v];
+    
 }
 
 - (void)didReceiveMemoryWarning
