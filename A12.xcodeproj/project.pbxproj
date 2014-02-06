@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77204C6918A3F7B4008CF354 /* Shapes.m in Sources */ = {isa = PBXBuildFile; fileRef = 77204C6818A3F7B4008CF354 /* Shapes.m */; };
 		77F7D1CE189ABC21008303F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F7D1CD189ABC21008303F5 /* Foundation.framework */; };
 		77F7D1D0189ABC21008303F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F7D1CF189ABC21008303F5 /* CoreGraphics.framework */; };
 		77F7D1D2189ABC21008303F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F7D1D1189ABC21008303F5 /* UIKit.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		77204C6718A3F7B4008CF354 /* Shapes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shapes.h; sourceTree = "<group>"; };
+		77204C6818A3F7B4008CF354 /* Shapes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shapes.m; sourceTree = "<group>"; };
 		77F7D1CA189ABC21008303F5 /* A12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A12.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77F7D1CD189ABC21008303F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		77F7D1CF189ABC21008303F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -125,6 +128,8 @@
 				77F7D1E6189ABC21008303F5 /* ViewController.m */,
 				77F7D205189ABD56008303F5 /* View.h */,
 				77F7D206189ABD56008303F5 /* View.m */,
+				77204C6718A3F7B4008CF354 /* Shapes.h */,
+				77204C6818A3F7B4008CF354 /* Shapes.m */,
 				77F7D1E8189ABC21008303F5 /* Images.xcassets */,
 				77F7D1D4189ABC21008303F5 /* Supporting Files */,
 			);
@@ -261,6 +266,7 @@
 				77F7D207189ABD56008303F5 /* View.m in Sources */,
 				77F7D1E7189ABC21008303F5 /* ViewController.m in Sources */,
 				77F7D1DE189ABC21008303F5 /* AppDelegate.m in Sources */,
+				77204C6918A3F7B4008CF354 /* Shapes.m in Sources */,
 				77F7D1DA189ABC21008303F5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,6 +486,7 @@
 				77F7D201189ABC21008303F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77F7D202189ABC21008303F5 /* Build configuration list for PBXNativeTarget "A12Tests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +495,7 @@
 				77F7D204189ABC21008303F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
